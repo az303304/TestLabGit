@@ -14,7 +14,8 @@ variable rg {
     type=string
     default="resource_group_name"
 }
+
 variable admin_password {
-    type=string
-    default="Password1234!"
+  type    = string
+  default = "PazSuresh2020@"
 }

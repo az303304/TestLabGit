@@ -6,8 +6,11 @@ variable location-name {
   type    = string
   default = "centralus"
 }
-/*variable admin_password {
+variable admin_username {
   type    = string
-  default = "Password1234!"
-  sensitive = true # example for terraform v14
-}*/
+  default = "testadmin"
+}
+variable admin_password {
+  type    = string
+  default = "PazSuresh2020@"
+}
